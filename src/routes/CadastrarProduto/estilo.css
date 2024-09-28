@@ -1,0 +1,64 @@
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cadastrar-produto {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9; 
+}
+
+.cadastrar-produto h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.cadastrar-produto input {
+    width: 100%; 
+    padding: 0.75rem; 
+    margin: 0.5rem 0; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 1rem; 
+}
+
+.cadastrar-produto-button {
+    width: 100%; 
+    padding: 0.75rem; 
+    margin-top: 1rem; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #28a745; 
+    color: white; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.cadastrar-produto-button:hover {
+    background-color: #218838; 
+}
+
+.btn-remove {
+    width: 100%; 
+    padding: 0.75rem; 
+    margin-top: 1rem; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #e00a1f; 
+    color: white; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-remove:hover {
+    background-color: #8d1010; 
+}
